@@ -1,6 +1,7 @@
 import json
 import os
 
+# *** RENAME to the json file name - .json ***#
 name = 'Wort2'
 with open(name + '.json') as f:
     data = json.load(f)
